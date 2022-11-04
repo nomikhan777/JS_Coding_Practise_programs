@@ -15,3 +15,17 @@ const sum = (a, b) => {
 }
 setTimeout(sum, 2000, 1, 2)
 setInterval(sum, 2000, 1, 2)
+
+
+
+
+// set interval using arguments 
+
+let i = 0;
+let fact = (n) => {
+    let temp
+    i++;
+    temp = n * i;
+    document.write(`Set Interval product : ${temp} <br>`)
+}
+setInterval(fact, 2000, 5);

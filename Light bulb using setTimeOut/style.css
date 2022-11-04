@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+.fra {
+    width: 300px;
+    height: 800px;
+    background-color: black;
+    border: 2px;
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+}
+
+.cir {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px black;
+    border-radius: 500px;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+
+}
+
+#butt {
+    font-size: 50px;
+    align-items: center;
+    align-content: center;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+#butto {
+    font-size: 50px;
+    margin-left: 15%;
+
+}
